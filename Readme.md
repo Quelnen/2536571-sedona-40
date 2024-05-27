@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Руслан Абасов](https://up.htmlacademy.ru/htmlcss/40/user/2536571).
-* Наставник: `Неизвестно`.
+* Наставник: [Антон Варнавский](https://htmlacademy.ru/profile/anton_varnauski).
 
 ---
 
