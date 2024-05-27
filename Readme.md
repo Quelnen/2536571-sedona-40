@@ -2,7 +2,7 @@
 
 * Студент: [Руслан Абасов](https://up.htmlacademy.ru/htmlcss/40/user/2536571).
 * Наставник: [Антон Варнавский](https://htmlacademy.ru/profile/anton_varnauski).
-
+* Сайт:[Мой проект Седона](https://quelnen.github.io/2536571-sedona-40/)
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
