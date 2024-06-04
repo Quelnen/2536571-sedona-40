@@ -77,8 +77,6 @@
           </ul>
         </fieldset>
 
-
-
         <fieldset class='catalog-filter-group'>
           <legend class="catalog-filter-title">Тип жилья:</legend>
           <ul class='control-list'>
@@ -103,10 +101,15 @@
           </ul>
         </fieldset>
 
-        <input type="text" value="0">
-        <input type="text" value="9000">
-        <meter value="7000" max="9000"></meter>
-
+        <input class = "cost-input" type="text" value="0">
+        <input class = "cost-input" type="text" value="9000">
+        <meter class = "cost-input-meter"value="7000" max="9000"></meter>
+        <button class = 'cost-button-less' type="button">
+          <span class = 'visually-hidden'>Уменьшить</span>
+        </button>
+        <button class = 'cost-button-more' type="button">
+          <span class ='visually-hidden' >Увеличить</span>
+        </button>
         <button class="button" type="submit">Применить</button>
         <button class='button' type='submit'>Сбросить</button>
       </form>
