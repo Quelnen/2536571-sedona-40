@@ -3,6 +3,7 @@
 
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="./styles/styles.css">
     <title>HTML Academy: Седона</title>
   </head>
 
@@ -42,18 +43,19 @@
     </header>
     <main class="main" data-test="main">
       <section class="hero" data-test="hero">
-        <h1 class="main-title visually-hidden">Седона</h1>
-        <img class="hero-photo" src="./images/index/hero_welcome.svg" width="458" height="352"
-          alt="Добро пожаловать в Седону">
+        <div class='divider'>
+          <h1 class="main-title visually-hidden">Седона</h1>
+          <img class="hero-photo" src="./images/index/hero_welcome.svg" width="458" height="352"
+            alt="Добро пожаловать в Седону">
+        </div>
       </section>
       <section class="advantages" data-test="advantages">
-        <h2>Седона — небольшой городок в Аризоне,
+        <h2 class ="advantages-title">Седона — небольшой городок в Аризоне,
           заслуживающий большего!</h2>
-        <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
-
+        <p  class = "advantages-description">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
         <ul class="advantages-list">
           <li class="advantages-item">
-            <img class="advantages-item-img" src="./images/index/advantage-1.jpg" width="800" height="385"
+            <img class="advantages-item-img" src="./images/index/advantage-city.jpg" width="800" height="385"
               alt="Город с природой">
             <h3 class="advantages-item-title">Настоящий городок</h3>
             <p class="advantages-item-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
@@ -71,7 +73,7 @@
             <p class="advantages-item-description">Большинство едет в Гранд Каньон и толпится там</p>
           </li>
           <li class="advantages-item">
-            <img class="advantages-item-img" src="./images/index/advantage-2.jpg" width="800" height="385"
+            <img class="advantages-item-img" src="./images/index/advantage-bridge.jpg" width="800" height="385"
               alt="Мост дьявола">
             <h3 class="advantages-item-title">Там есть мост дьявола</h3>
             <p class="advantages-item-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
@@ -79,8 +81,8 @@
         </ul>
       </section>
       <section class="services">
-        <h2>Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
-        <p>Приезжайте в Седону отдохнуть в комфорте и уюте!</p>
+        <h2 class = 'services-title'>Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
+        <p class ='services-desc'>Приезжайте в Седону отдохнуть в комфорте и уюте!</p>
 
         <ul class="benefit-list">
           <li class="benefit-element">
@@ -116,23 +118,23 @@
     </main>
     <footer class="footer" data-test="footer">
       <ul class="socials-list">
-        <li class="socials-item">
+        <li class="socials-item socials-item-vk">
           <a href="https://vk.com/htmlacademy" class="socials-item-link">
             <span class="visually-hidden">vk</span>
           </a>
         </li>
-        <li class="socials-item">
+        <li class="socials-item socials-item-telegram">
           <a href="https://t.me/htmlacademy" class="socials-item-link">
             <span class="visually-hidden">telegram</span>
           </a>
         </li>
-        <li class="socials-item">
+        <li class="socials-item socials-item-youtube">
           <a href="https://www.youtube.com/user/htmlacademyru" class="socials-item-link">
             <span class="visually-hidden">youtube</span>
           </a>
         </li>
       </ul>
-      <a href="tel:+78128121212">+7 (812) 812-12-12</a>
+      <a class="footer-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
       <a href="https://htmlacademy.ru/intensive/htmlcss">
         <img src="./images/index/html-academy.svg" width="114" height="32" alt="Логитип html academy">
       </a>
